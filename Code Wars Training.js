@@ -269,15 +269,15 @@ function accum(s) {
   // your code
 }
 
-// Kata 14 | Ty
+// Kata 14 | TypeScript Practice
 
-export function even_or_odd(n: number): string {
-  if (n % 2 == 0) {
-    return "Even";
-  } else {
-    return "Odd";
-  }
-}
+// export function even_or_odd(n: number): string {
+//   if (n % 2 == 0) {
+//     return "Even";
+//   } else {
+//     return "Odd";
+//   }
+// }
 
 // Kata 15
 
@@ -330,6 +330,16 @@ function maps(x) {
   }
   return newArr;
 }
+
+// Kata 19
+
+// Write a function which converts the input string to uppercase.
+
+function makeUpperCase(str) {
+  return str.toUpperCase();
+}
+
+// Kata 20
 
 ///////////////////////////////////////////////////////////
 
@@ -391,3 +401,21 @@ String.prototype.toJadenCase = function () {
 };
 
 ///////////////////////////
+
+// Random
+
+const freddy = "boy";
+const evin = "girl";
+let maleOrFemale = "boy" ? "Male" : "Female";
+console.log(maleOrFemale(freddy));
+
+function genderCheck(name) {
+  if (name == "boy") {
+    return "Male";
+  } else {
+    return "Female";
+  }
+}
+
+console.log(genderCheck(freddy));
+console.log(genderCheck(evin));
